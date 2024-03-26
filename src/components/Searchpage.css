@@ -1,0 +1,20 @@
+.searchpage{
+    margin-left: 16%;
+    background-color: rgb(245,245,245);
+    padding: 10px 80px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+.filtericon{
+    margin-right: 5px;
+
+}
+.filterheading{
+    font-size: 14px;
+    color: #606060;
+    font-weight: 700;
+}

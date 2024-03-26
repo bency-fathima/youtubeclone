@@ -1,0 +1,46 @@
+.Tags{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px lightgray;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    position: sticky;
+    /* z-index: 50; */
+    top: 60px;
+    left: 16%;
+}
+.mini-Tags{
+    border-radius: 15px;
+    height: 24px;
+    background-color: rgb(235,235,235);
+    width: fit-content;
+    margin-right: 16px;
+    margin-left: 16px;
+    padding: 3px 10px;
+}
+.next{
+    color: rgb(139,139,139)
+}
+
+.mini-Tags.active{
+    background-color: rgb(54,54,54);
+    color: white;
+    border-radius: 15px;
+    height: 24px;
+    margin-left: 10px;
+    border: 1px solid lightgray;
+    width: fit-content;
+     margin-right: 10px;
+    padding: 3px 10px;
+}
+.mini-Tags.active:hover{
+    background-color: rgb(92,92,92);
+}
+.mini-Tags:hover{
+    background-color: rgb(219,219,219);
+    cursor: pointer;
+}

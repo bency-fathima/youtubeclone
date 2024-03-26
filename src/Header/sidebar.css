@@ -1,0 +1,106 @@
+.parent-header{
+    position: sticky;
+    top: 0;
+    z-index: 60;
+}
+/* .sidebar {
+    position: fixed;
+    top: 60px;
+    width: 250px;  
+    height: 92vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    left: 0;
+    background-color: white;
+     transition: left 0.5s ease;
+}
+.sidebar .active{
+    left: -16%;
+}
+ */
+ .sidebar {
+    position: fixed;
+    top: 60px;
+    width: 250px;  
+    height: 92vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    left: 0;
+    background-color: white;
+    transition: left 0.5s ease;
+}
+.sidebar.active {
+    left: -16%;
+}
+.mini-sidebar {
+    width: 55px;  
+    top: 70px;
+    position: fixed;
+    z-index: 50;
+    height: 92vh;
+    background-color: white;
+    left: -100px;
+    transition: left 0.5s ease;
+}
+.mini-sidebar.active {
+    left: 0;
+}
+
+
+.sidebar hr{
+    height: 1px;
+    border: 0;
+    background-color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sidebar-heading{
+    margin: 0 0 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(131,131,131);
+    font-weight: 550;
+}
+.footer{
+    padding: 0 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(75,75,75);
+    line-height: 8px;
+}
+.sidebar::-webkit-scrollbar{
+    border-radius: 50%;
+}
+.sidebar::-webkit-scrollbar-track{
+    background-color: white;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background-color: white;
+
+}
+.sidebar:hover::-webkit-scrollbar-thumb{
+    background-color: rgb(184,184,184);
+}
+/* .mini-sidebar{
+    width: 55px;
+    top: 70px;
+    position: fixed;
+    z-index: 50;
+    height: 92vh;
+    background-color: white;
+    left: -100px;
+    transition: left 0.5s ease;
+}
+.mini-sidebar .active{
+    left: 0;
+} */
+.mini-div{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 10px;
+    color: black;
+}
+.mini-div:hover{
+    background-color: lightgray;
+    border-radius: 10%;
+}

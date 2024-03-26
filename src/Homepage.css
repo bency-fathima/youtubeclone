@@ -1,0 +1,7 @@
+.homepage{
+    background-color: rgb(247, 246, 246);
+    margin-left: 19%;
+     display: flex;
+     flex-wrap: wrap;
+    align-items: center;
+}

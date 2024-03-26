@@ -1,0 +1,90 @@
+.videocard{
+    width: 260px;
+    margin-bottom: 40px;
+    position: relative;
+     
+}
+.videoImg{
+    height: 162px;
+    width: 400px;
+    margin-bottom: 0;
+     
+}
+.videoData{
+    display: flex;
+    padding-top: 10px;
+}
+.channelDetails{
+    margin-left: 10px;
+}
+.channelDetails p{
+    font-size: 14px;
+    color: rgb(122,122,122);
+    font-weight: 450;
+    margin-top: -14px;
+    margin-bottom: 15px;
+}
+.channelDetails h5{
+    margin-top: -5px;
+    color: rgb(26,26,26);
+} 
+.duration{
+    background-color: rgb(31,31,31);
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    top: 135px;
+    right: 10px;
+    opacity: 0.9;
+}
+.watchlater{
+    position: absolute;
+    top: 10px;
+    background-color: black;
+    color: white;
+    right: 10px;
+    padding: 4px 6px;
+    right: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+    align-items: center;
+    display: none;
+    border-radius: 3px;
+}
+.playlistadd{
+    position: absolute;
+    display: none;
+    color: white;
+    top: 50px;
+    background-color: black;
+
+    right: 10px;
+    padding: 4px 4px;
+    right: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+    align-items: center;
+    border-radius: 3px;
+}
+.videocard:hover .playlistadd{
+    display: flex;
+}
+.videocard:hover .watchlater{
+    display: flex;
+}
+.moreIcon{
+    color: rgb(131,131,131);
+}
+.moreIcon:hover{
+    color: rgb(83,83,83);
+    cursor: pointer;
+}
+.c_name:hover{
+    color: rgb(59,59,59);
+    cursor: pointer;
+}
